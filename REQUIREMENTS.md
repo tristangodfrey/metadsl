@@ -25,3 +25,15 @@ It cannot be expected of domain experts to be able/willing to wrap their heads
 around non-trivial syntax details necessary for more complex behaviour, therefore
 the only way to accomplish this would be by means of introducing a GUI that complements
 the text format, and allows users to define specific relationships between objects.
+
+## Problems Solved
+
+- No need for developers to document class behaviour
+- Consistent naming of domain objects
+
+
+## Way in the future
+
+Instead of using a simple parser to generate a moderate amount of code, train a neural net
+to produce diagrams based on text input, and optionally have the diagram validated by a
+developer upon generation
